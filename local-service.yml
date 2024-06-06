@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:8861}
+   port: ${PORT:8810}
 message: Configuracion de local servidor levantado!
 spring:
   datasource:
