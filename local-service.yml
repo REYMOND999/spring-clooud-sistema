@@ -1,4 +1,4 @@
 server:
-   port: ${PORT:8810}
-message: Configuracion de local servidor levantado!
+  port: ${PORT:8810}
+message: Configuracion de cajero en el servidor levantadoo!
 
