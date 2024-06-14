@@ -1,5 +1,5 @@
 server:
-   port: ${PORT:8815 }
+   port: ${PORT:8815}
 message: Configuracion de producto servidor levantado!
 spring:
   datasource:
@@ -10,7 +10,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-      database-platform: org.hibernate.dialect.MySQL5Dialect
+      database-platform: org.hibernate.dialect.MySQLDialect
   cloud:
     config:
       uri: http://localhost:8860
