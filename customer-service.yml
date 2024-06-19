@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:8861}
+  port: ${PORT:8869}
 message: Configuración de cliente en el servidor levantado!
 spring:
   datasource:
@@ -13,4 +13,4 @@ spring:
       dialect: org.hibernate.dialect.OracleDialect  
   cloud:
     config:
-      uri: http://localhost:8860
+      uri: http://localhost:8861
