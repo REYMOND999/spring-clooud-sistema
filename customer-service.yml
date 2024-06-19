@@ -3,11 +3,11 @@ server:
 message: Configuracion de Customer en el servidor levantado!
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/crudcloud?serverTimezone=UTC
-    username: root
-    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: C##bdprueba
+    password: C##bdprueba
   jpa:
     hibernate:
       ddl-auto: update
-      database-platfomr: org.hibernate.dialect.MySQLDialect
+      database-platfomr: org.hibernate.dialect.Oracle21cDialect
