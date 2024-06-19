@@ -11,6 +11,4 @@ spring:
     hibernate:
       ddl-auto: update
       dialect: org.hibernate.dialect.OracleDialect  
-  cloud:
-    config:
-      uri: http://localhost:8861
+  
