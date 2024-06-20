@@ -11,9 +11,9 @@ spring:
     hibernate:
       ddl-auto: update
       database-platfomr: org.hibernate.dialect.MySQLDialect
-  eureka:
-    client:
-      register-with-eureka: true
-      #fetch-registry: false
-      serviceurl:
-        defaultZone: http://localhost:8850/eureka/
+eureka:
+  client:
+    register-with-eureka: true
+    #fetch-registry: false
+    serviceurl:
+      defaultZone: http://localhost:8850/eureka/
